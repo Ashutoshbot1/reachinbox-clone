@@ -1,0 +1,35 @@
+.mode{
+    width: 52px;
+    height: 24px;
+    border-radius: 80px;
+    border: 1px solid #343a40;
+    // padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapper{
+        // border: 1px solid red;
+        display: flex;
+        width: 48px;
+        height: 20px;
+        position: relative;
+        .icon{
+        //  border: 1px solid red;
+         width: 24px; 
+         height: 10px; 
+         img{
+            object-fit: cover;
+            
+         } 
+        }
+        .floatingBg{
+            position: absolute;
+            width: 24px;
+            height: 10px;
+            transition: left .2s ease-in ;
+            img{
+                width: 75%;
+            }
+        }
+    }
+}

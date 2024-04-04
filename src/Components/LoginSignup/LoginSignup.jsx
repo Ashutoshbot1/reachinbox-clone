@@ -14,12 +14,14 @@ const loginObj = {
 
 const LoginSignup = () => {
   const [login, setLogin] = useState(false);
-  const navigate=useNavigate();
+  const navigate = useNavigate();
 
   //Function toggleSignMethod
   function toggleSignMethod() {
     setLogin((prev) => !prev);
   }
+
+
 
   //Function googleLogin
   function googleLogin(){

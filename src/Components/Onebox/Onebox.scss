@@ -1,0 +1,27 @@
+.onebox {
+    display: grid;
+    grid-template-columns: 56px 1fr; /* First column for navbar, second column for header and main */
+    grid-template-rows: 64px 1fr; /* First row for header (70px), remaining rows for main */
+    height: 100vh;
+  }
+  
+  .navbarContainer {
+    grid-column: 1; /* Place in first column */
+    grid-row: span 2; /* Span two rows */
+    // background-color: #333; /* Example background color */
+  }
+  
+  .headerContainer {
+    grid-column: 2; /* Place in second column */
+    // background-color: #555; /* Example background color */
+  }
+  
+  .mainContainer {
+    grid-column: 2; /* Place in second column */
+    grid-row: 2; /* Place in second row */
+    // background-color: #777; /* Example background color */
+  }
+  
+//   .cont {
+//     border: 1px solid red; /* Just for visualization */
+//   }

@@ -1,0 +1,16 @@
+.mainComp{
+    border: 2px solid red;
+    display: flex;
+    height: calc(100vh - 64px);
+    // overflow-y: scroll;
+
+    .left{
+        padding: 20px;
+        padding-bottom: 0;
+        border: 2px solid blue;
+        
+    }
+    .right{
+        // border: 2px solid blue;
+    }
+}

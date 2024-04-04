@@ -1,0 +1,66 @@
+.navbar{
+
+    width: 56px;
+    height: 100vh;
+    border-right: 1px solid #343a40;
+    padding: 0 4px;
+    .top{
+        // border: 1px solid red;
+        width: 48px;
+        height: 70px;
+        border-radius: 2px;
+        // padding: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .topLogo{
+            // border: 1px solid red;
+            width: 32px;
+            height: 32px;
+            padding: 4px 3px;
+            img{
+                width: 26px;
+                height: 24px;
+                border-radius: 2px;
+            }
+        }
+    }
+    .center{
+        // border:1px solid red;
+        width: 100%;
+        height: calc(100vh - 70px - 56px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 32px 0;
+        .icons{
+            // border: 2px solid blue;
+            width: 28px;
+            height: 100%;
+            .iconWrapper{
+                // border: 1px solid green;
+                width: 28px;
+                height: 28px;
+                border-radius: 4px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 28px;
+                // background-color: yellow;
+                img{
+                    // border: 2px solid yellow;
+                    width: 90%;
+                    // height: 100%;
+                }
+            }
+        }
+    }
+    .bottom{
+        width: 48px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
