@@ -1,0 +1,13 @@
+.bullet{
+    border: 2px solid rgba(34, 36, 38, 1);
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    .circle{
+        // border: 2px solid red;
+        width: 8px;
+        height: 8px;
+        border-radius: 50px;
+        // background-color: rgba(87, 224, 166, 1);
+    }
+}

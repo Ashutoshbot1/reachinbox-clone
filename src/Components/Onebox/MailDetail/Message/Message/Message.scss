@@ -1,0 +1,64 @@
+.message{
+    width: 753px;
+    height: 236px;
+    border-radius: 4px;
+    border: 1px solid rgba(52,58,64);
+    background-color: #141517;
+    margin-bottom: 20px;
+    
+
+    .messageHeader{
+        width: 753px;
+        height: 99px;
+        border-radius: 4px 0;
+        padding: 12px 16px;
+
+        .messageHeaderWrapper{
+            width: 721px;
+            height: 75px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .subjectDate{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .subject{
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 19.07px;
+                    color:#f8fafc
+                }
+                .date{
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 16.17px;
+                    color: #7f7f7f;
+                }
+            }
+            .from, .to{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 16.17px;
+                color: #aeaeae;
+            }
+            
+        }
+    }
+    .messageContent{
+        width: 753px;
+        height: 99px;
+        border-radius: 4px 0;
+        padding: 12px 16px;
+        .messageContentWrapper{
+            // border:2px solid;
+            width: 500px;
+            height: 114px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.07px;
+            letter-spacing: -2%;
+            color: #e1e0e0;
+        }
+    }
+}

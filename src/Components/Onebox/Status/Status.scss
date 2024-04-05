@@ -1,0 +1,26 @@
+.status{
+    width: 83px;
+    height: 20px;
+    border-radius: 17px;
+    padding: 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(34, 36, 38, 1);
+    .statusWrapper{
+        width: 67px;
+        height: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        
+        .text{
+            font-size: 10px;
+            font-weight: 600px;
+            line-height: 13.62px;
+            color: rgba(87, 224, 166, 1);
+        }
+    }
+}

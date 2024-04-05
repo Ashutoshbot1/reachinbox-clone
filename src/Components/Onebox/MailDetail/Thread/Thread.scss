@@ -1,0 +1,158 @@
+.thread{
+
+    .threadHeader{
+        width: 799px;
+        height: 70px;
+        border-radius: 7px 7px 0 0;
+        border-bottom: 1px solid rgba(51,53,63);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:8px;
+        padding: 0 17px 0 17px;
+        .threadHeaderLeft{
+        // border: 2px solid;
+        width: 422px;
+        height: 46px;
+        border-radius: 8px;
+        padding: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        .thName{
+            // border: 2px solid;
+            width: 414px;
+            height: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 20px;
+        }
+        .thMail{
+            // border: 2px solid;
+            width: 156px;
+            height: 18px;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            color: #ffffff40;
+        }
+        }
+        .threadHeaderCenter{
+        width: 326px;
+        height: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        .thmeeting{
+            width: 180px;
+            height: 33px;
+            border-radius: 4px;
+            border: 1px solid #343a40;
+            background-color: #1f1f1f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:6px;
+            .thcomplete{
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 18.6px;
+                color: #d3d7db;
+
+            }
+            .thdownarrow{
+                // border: 2px solid;
+                width: 11.78px;
+                height: 13.2px;
+                color: #a9aeb4;
+                display: flex;
+                align-items: center;
+                svg{
+                    width: 100%;
+                }
+            }
+
+        }
+
+        .thmovewrapper{
+            width: 86px;
+            height: 32px;
+            border-radius: 4px;
+            border: 1px solid #343a40;
+            background-color: #1f1f1f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap:6px;
+            padding: 8px 16px;
+            .thmove{
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 18.6px;
+                color: #d3d7db;
+            }
+            .thdownarrow{
+                // border: 2px solid;
+                width: 11.78px;
+                height: 13.2px;
+                color: #a9aeb4;
+                display: flex;
+                align-items: center;
+                svg{
+                    width: 100%;
+                }
+            }
+        }
+        }
+        .threadHeaderRight{
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+            border: 1px solid #343a40;
+            padding: 8px;
+            background-color: #1f1f1f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // .thRightMenuWrapper{
+            //     border: 1px solid #343a40;
+            //     width: 16px;
+            //     height: 16px;
+
+            //     // .thRightMenu{
+            //     //     border: 1px solid #343a40;
+            //     //     width: 10.67px;
+            //     //     height: 2.67px;
+            //     //     color: #d9d9d9;
+            //     // }
+            // }
+        }
+    }
+    .threadBody{
+        padding: 2px 17px;
+        .thbodyDayWrapper{
+            width: 745px;
+            position: relative;
+            border:1px solid #f8fafc20;
+            margin: 20px 0;
+            .thbodyDay{
+                position: absolute;
+                top:50%;
+                left: 50%;
+                transform: translate(-50%,-60%);
+                z-index: 1;
+                width: 50.36px;
+                height: 22px;
+                padding: 4px;
+                border: 1px solid #f8fafc20;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #171819;
+                font-size: 14px;
+            }
+        }
+    }
+}

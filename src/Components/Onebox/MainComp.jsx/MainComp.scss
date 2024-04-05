@@ -1,13 +1,15 @@
 .mainComp{
-    border: 2px solid red;
+    // border: 2px solid red;
     display: flex;
     height: calc(100vh - 64px);
     // overflow-y: scroll;
+    
 
     .left{
         padding: 20px;
         padding-bottom: 0;
-        border: 2px solid blue;
+        // border: 2px solid blue;
+        border-right: 1px solid rgba(51,53,63);
         
     }
     .right{
