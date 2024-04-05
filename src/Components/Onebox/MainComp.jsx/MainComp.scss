@@ -1,5 +1,6 @@
 .mainComp{
     // border: 2px solid red;
+    position: relative;
     display: flex;
     height: calc(100vh - 64px);
     // overflow-y: scroll;
@@ -14,5 +15,8 @@
     }
     .right{
         // border: 2px solid blue;
+    }
+    .replyButton{
+        position: absolute;
     }
 }

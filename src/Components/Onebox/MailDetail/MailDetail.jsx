@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import './MailDetail.scss';
 import Thread from './Thread/Thread';
+import Button from '../../Common/Button/Button';
+import ReplyBox from './ReplyBox/ReplyBox';
 
 const MailDetail = ({threadId}) => {
     const [data,setData]=useState("");
     const token=import.meta.env.VITE_APP_TOKEN;
+    const [replyBtn,setReplyBtn]=useState(false);
+    const [replyBox,setReplyBox]=useState(false);
 
     useEffect(()=>{
         fetchThreads();
@@ -39,7 +43,9 @@ const MailDetail = ({threadId}) => {
           .then((result) => {
             const {data:res}=result
             setData(res);
-            // console.log(res);
+            setTimeout(()=>{
+              setReplyBtn(true);
+            })
           })
           .catch((error) => console.error("Error fetching mails:", error));
       }
@@ -52,6 +58,11 @@ const MailDetail = ({threadId}) => {
       <div className="mdright">
             
       </div>
+      {replyBtn && <div className="replyButton" onClick={()=>setReplyBox(true)}>
+        <Button text={"Reply"}/>
+      </div>}
+
+      {replyBox && <ReplyBox setReplyBox={setReplyBox}/>}
 
     </div>
   )
