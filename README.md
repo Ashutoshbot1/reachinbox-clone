@@ -1,8 +1,11 @@
-ReactInbox Clone
-This is a ReactInbox clone web application created using React, Vite, SCSS, Redux Toolkit, and React Router for routing. The application includes features like login and signup pages for authentication, a mailbox page where users can view, read, reply, and delete emails, as well as support for light and dark mode.
+<img width="1000" alt="ReactInbox Clone Screenshot" src="https://user-images.githubusercontent.com/39578778/187084111-97d69aa7-53e4-46b9-b156-3ecc4d180d08.png">
+www.reactinbox-clone.com 
+ 
+ 
+ReactInbox Clone is a replica of the popular ReachInbox web application. It includes features such as authentication with login and signup pages, a mailbox page for managing emails, including viewing, reading, replying, and deleting emails, along with support for light and dark mode themes.
 
 Project Setup
-To get started with the project, follow these steps:
+To set up the project, follow these steps:
 
 Clone the repository to your local machine:
 bash
@@ -17,7 +20,7 @@ bash
 Copy code
 npm install
 Running the Application
-After setting up the project, you can run the application locally using the following command:
+Once the project is set up, you can run the application locally using the following command:
 
 bash
 Copy code
@@ -54,4 +57,4 @@ Create a new Pull Request.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Feel free to reach out with any questions, issues, or suggestions! Thank you for using ReactInbox Clone. 🚀
+If you encounter any issues or have suggestions for improvement, feel free to open an issue or reach out. Thank you for using ReactInbox Clone. 🚀
